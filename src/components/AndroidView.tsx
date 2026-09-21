@@ -25,6 +25,7 @@ import { InterventionBanner } from './InterventionBanner';
 import { VisualProgress } from './VisualProgress';
 import { CohortFeed } from './CohortFeed';
 import { AddGoalModal } from './AddGoalModal';
+import { StayOnIcon } from './StayOnLogo';
 
 interface AndroidViewProps {
   onOpenLeaveModal: () => void;
@@ -71,12 +72,12 @@ export const AndroidView: React.FC<AndroidViewProps> = ({
             isDark ? 'bg-slate-900/95 border-slate-800' : 'bg-white/95 border-slate-200'
           }`}
         >
-          <div className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-lg bg-emerald-500 flex items-center justify-center text-slate-950 font-black text-xs">
-              ON
-            </div>
+          <div className="flex items-center gap-2.5">
+            <StayOnIcon size="sm" />
             <div>
-              <span className="text-xs font-black tracking-tight">StayON</span>
+              <span className={`text-xs font-black tracking-tight ${isDark ? 'text-white' : 'text-slate-900'}`}>
+                StayOn
+              </span>
               <span className="text-[10px] text-slate-400 block -mt-0.5">Cohort 51 · PM Track</span>
             </div>
           </div>

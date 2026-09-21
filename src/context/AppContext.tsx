@@ -19,8 +19,11 @@ interface AppContextType {
   selectDemoState: (key: string) => void;
   platformView: PlatformView;
   setPlatformView: (view: PlatformView) => void;
+  platformMode: PlatformView;
+  setPlatformMode: (mode: PlatformView) => void;
   themeMode: ThemeMode;
   toggleThemeMode: () => void;
+  toggleTheme: () => void;
   peerGoals: PeerGoal[];
   telemetryEvents: TelemetryEvent[];
   logTelemetry: (eventType: TelemetryEvent['eventType'], metadata?: Record<string, any>) => void;
@@ -291,8 +294,11 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         selectDemoState,
         platformView,
         setPlatformView,
+        platformMode: platformView,
+        setPlatformMode: setPlatformView,
         themeMode,
         toggleThemeMode,
+        toggleTheme: toggleThemeMode,
         peerGoals,
         telemetryEvents,
         logTelemetry,

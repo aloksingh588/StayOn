@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 80" fill="none">
+  <!-- Rounded Squircle Icon -->
+  <rect x="8" y="8" width="64" height="64" rx="18" fill="#EAFDF3" stroke="#A7F3D0" stroke-width="2"/>
+  <!-- StayOn Signature Pulse Wave Glyph -->
+  <path
+    d="M 21 40 H 29 C 32.5 40 35 41.5 37 45.5 L 39.8 51.5 C 40.5 53 41.8 53 42.5 51.5 L 45.3 45.5 C 47.3 41.5 49.8 40 53.3 40 H 61"
+    stroke="#059669"
+    stroke-width="5.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- StayOn Wordmark -->
+  <text x="86" y="50" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="34" letter-spacing="-1.2px" fill="#0F172A">
+    StayOn
+  </text>
+</svg>

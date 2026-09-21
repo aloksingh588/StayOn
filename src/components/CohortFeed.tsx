@@ -133,7 +133,7 @@ export const CohortFeed: React.FC = () => {
       >
         <Info className="w-3.5 h-3.5 shrink-0 mt-0.5 text-slate-500" />
         <p>
-          <strong>Peer information is for inspiration and context.</strong> StayON does not rank
+          <strong>Peer information is for inspiration and context.</strong> StayOn does not rank
           students competitively; learning effort is self-directed and non-comparative.
         </p>
       </div>

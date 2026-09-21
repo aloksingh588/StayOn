@@ -1,5 +1,5 @@
 {
-  "name": "StayON",
+  "name": "StayOn",
   "description": "Personalized re-engagement and consistency platform for online course learners.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

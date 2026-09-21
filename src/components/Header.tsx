@@ -13,6 +13,7 @@ import {
   CheckCircle2,
 } from 'lucide-react';
 import { DemoStateKey } from '../types';
+import { StayOnLogo } from './StayOnLogo';
 
 interface HeaderProps {
   onOpenCareerProfile: () => void;
@@ -54,22 +55,7 @@ export const Header: React.FC<HeaderProps> = ({
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-3">
         {/* Left: Brand Identity */}
-        <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-xl bg-emerald-500 text-slate-950 flex items-center justify-center font-black text-sm tracking-tight shadow-md">
-            ON
-          </div>
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="font-black text-lg tracking-tight">StayON</span>
-              <span className="text-[10px] px-2 py-0.5 rounded-full font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 hidden sm:inline">
-                HelloPM Ecosystem
-              </span>
-            </div>
-            <p className="text-[11px] text-slate-400 -mt-0.5 hidden sm:block">
-              Continuous Learning & Daily Commitment
-            </p>
-          </div>
-        </div>
+        <StayOnLogo isDark={isDark} />
 
         {/* Center: Platform Switcher (Android vs Web) */}
         <div
